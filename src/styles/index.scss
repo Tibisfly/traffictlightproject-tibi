@@ -11,3 +11,54 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+h1{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 5em;
+    letter-spacing: -2px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+}
+.container{
+    background-color: black;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 10px;
+}
+.traffictlightred{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.traffictlightyellow{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.traffictlightgreen{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto; 
+}
+.selected{
+-webkit-box-shadow: 0px 0px 61px 44px rgba(242,239,242,1);
+-moz-box-shadow: 0px 0px 61px 44px rgba(242,239,242,1);
+box-shadow: 0px 0px 61px 44px rgba(242,239,242,1)
+}
+.theStick{
+    width: 20px;
+    height: 100px;
+    background-color: black;
+    margin: 0 auto;
+}
